@@ -36,9 +36,9 @@ int main(int argc, char** argv) { // SDL needs to hijack main to do stuff; inclu
     res.load(state);
 
     // set window icon
-    /*SDL_Surface *icon = IMG_Load("data/logo.png");
+    SDL_Surface *icon = IMG_Load("data/logo.png");
     SDL_SetWindowIcon(state.window, icon);
-    SDL_DestroySurface(icon);*/
+    SDL_DestroySurface(icon);
     
     srand(time(0)); // randomize item generation
 
