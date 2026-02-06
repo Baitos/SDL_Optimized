@@ -11,9 +11,6 @@
 struct SDLState;
 struct GameState;
 struct Resources;
-class Player;
-class PlayerState;
-
 
 class Object { // generic obj type    
     public:

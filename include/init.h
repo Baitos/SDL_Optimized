@@ -1,4 +1,7 @@
 #pragma once
 
-#include <SDL3/SDL.h>
+struct SDLState;
+struct GameState;
+struct Resources;
 
+bool init(SDLState &state, GameState &gs, Resources &res); // initialize state, gs, res
